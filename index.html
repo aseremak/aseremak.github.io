@@ -1,1 +1,121 @@
-Hello World
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adam Seremak Home Page</title>
+    <meta name="author" content="Adam Seremak" />
+    <link href="./static/css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="container">
+      <main>
+        <div id="scene">
+          <div class="carousel">
+            <section class="slide" id="slide-first">
+              <div class="group">
+                <h1>Adam Seremak Home&nbsp;Page</h1>
+                <ul class="skills">
+                  <li class="skill-item html5"><img src="./static/icon/html5.svg" /><span>HTML5</span></li>
+                  <li class="skill-item css3"><img src="./static/icon/css3.svg" /><span>CSS3</span></li>
+                  <li class="skill-item javascript"><img src="./static/icon/javascript.svg" /><span>JavaScript</span></li>
+                  <li class="skill-item react"><img src="./static/icon/react.svg" /><span>React</span></li>
+                  <li class="skill-item redux"><img src="./static/icon/redux.svg" /><span>Redux</span></li>
+                  <li class="skill-item firebase"><img src="./static/icon/firebase.svg" /><span>Firebase</span></li>
+                  <li class="skill-item python"><img src="./static/icon/python.svg" /><span>Python</span></li>
+                  <li class="skill-item django"><img src="./static/icon/django.svg" /><span>Django</span></li>
+                  <li class="skill-item mysql"><img src="./static/icon/mysql.svg" /><span>MySQL</span></li>
+                </ul>
+              </div>
+            </section>
+            <section
+              onclick="window.open('https://gabinet-tomis.pl')"
+              class="slide"
+              id="slide-tomis"
+            >
+              <div class="image">
+                <img src="./static/img/tomis.png" alt="kolorowe cukierki" />
+              </div>
+              <div class="group">
+                <h1>Gabinet Tomiś</h1>
+                <div class="opis">
+                  <p>
+                    Gabinet terapii pedagogicznej, terapii ręki i wyrównywania
+                    szans edukacyjnych
+                  </p>
+                </div>
+                <ul class="skills">
+                  <li class="skill-item html5"><img src="./static/icon/html5.svg" /><span>HTML5</span></li>
+                  <li class="skill-item css3"><img src="./static/icon/css3.svg" /><span>CSS3</span></li>
+                  <li class="skill-item javascript"><img src="./static/icon/javascript.svg" /><span>JavaScript</span></li>
+                </ul>
+              </div>
+            </section>
+            <section
+              onclick="window.open('http://adse.pl/alphacam/')"
+              class="slide"
+              id="slide-alphacam"
+            >
+              <div class="image">
+                <img
+                  src="./static/img/alphacamblog.png"
+                  alt="strona bloga Alphacam"
+                />
+              </div>
+              <div class="group">
+                <h1>Alphacam Blog</h1>
+                <div class="opis">
+                  <p>Blog o programowaniu obróbki CNC w Alphacam.</p>
+                </div>
+                <ul class="skills">
+                  <li class="skill-item html5"><img src="./static/icon/html5.svg" /><span>HTML5</span></li>
+                  <li class="skill-item css3"><img src="./static/icon/css3.svg" /><span>CSS3</span></li>
+                  <li class="skill-item javascript"><img src="./static/icon/javascript.svg" /><span>JavaScript</span></li>
+                </ul>
+              </div>
+            </section>
+            <section
+              onclick="window.open('http://adse.pl/slidingpuzzle/')"
+              class="slide"
+              id="slide-slidingpuzzle"
+            >
+              <div class="image">
+                <img src="./static/img/slidingpuzzle.png" alt="rybka" />
+              </div>
+              <div class="group">
+                <h1>Sliding Puzzle</h1>
+                <div class="opis">
+                  <p>
+                    Gra logiczna. Przesuwaj pola układanki aby ułożyć obrazek.
+                  </p>
+                </div>
+                <ul class="skills">
+                  <li class="skill-item html5"><img src="./static/icon/html5.svg" /><span>HTML5</span></li>
+                  <li class="skill-item css3"><img src="./static/icon/css3.svg" /><span>CSS3</span></li>
+                  <li class="skill-item javascript"><img src="./static/icon/javascript.svg" /><span>JavaScript</span></li>
+                  <li class="skill-item react"><img src="./static/icon/react.svg" /><span>React</span></li>
+                  <li class="skill-item redux"><img src="./static/icon/redux.svg" /><span>Redux</span></li>
+                  <li class="skill-item firebase"><img src="./static/icon/firebase.svg" /><span>Firebase</span></li>
+                </ul>
+              </div>
+            </section>
+            <section class="slide" id="slide-last">
+              <div class="group">
+                <h1>Kolejne wkrótce...</h1>
+              </div>
+            </section>
+          </div>
+        </div>
+        <div id="buttons-container">
+          <div class="button spin-left-button button-disabled">
+            <span>&lt&lt</span>
+          </div>
+          <div class="button spin-right-button button-enabled click-me">
+            <span>&gt&gt</span>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+  <script src="./js/scripts.js"></script>
+</html>
